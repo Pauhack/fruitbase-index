@@ -1,0 +1,153 @@
+
+ /* Portada */
+.bg-img {
+  /* The image used */
+  background-image: url("img/fruitbase-1.png");
+  height: 660px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Navbar links */
+.navbar a {
+ color: #f2f2f2;
+ font-size: 17px;
+ font-weight: 600;
+}
+
+#brand-image {
+  position: absolute;
+  left: 70px;
+  top: -30px;
+  max-height: 140px;
+}
+
+.navbar {
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+#btn1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100px;
+opacity: 0.9;
+ }
+
+@media(max-width: 768px)  {
+
+  .navbar-toggle {
+    border: 1px solid ;
+    color: #f2f2f2; }
+
+  .navbar-toggle .icon-bar {
+    background-color: #f2f2f2;
+    }
+
+    #brand-image {
+      left: 10px;
+    }
+
+    .navbar {
+      margin-right: 20px;
+      padding-top: 25px;
+    }
+    }
+
+/* About us Section */
+.fondo {
+  background-image: url("img/IMG_2939.jpeg");
+  height: 660px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fondo h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.fondo p {
+font-size: 17px;
+}
+
+.fondo .lead {
+  text-align: center;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+  hr {
+    width: 500px;
+    border-width: 2px;
+  }
+
+/* Bullet points description */
+  #descripcion img {
+    width: 70%;
+    padding-left: 100px;
+  }
+
+  /* Products Section */
+.productos {
+  padding: 30px;
+  text-align: center;
+}
+
+.productos h2,
+.productos h4 {
+  margin: 20px;
+}
+
+.productos p {
+  color: #737373;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+  .productos img {
+    width: 250px;
+    height: 250px;
+    object-fit: scale-down;
+    padding: 5px;
+  }
+
+  @media(max-width: 768px) {
+  .productos {
+    padding: 10px;
+    }
+  }
+
+
+    /* Footer */
+    .footer {
+      padding: 30px;
+      color: #cccccc;
+      background-color: #222222;
+    }
+
+    .footer .social {
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #cccccc;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      margin-rigth: 5px;
+    }
